@@ -11,5 +11,20 @@
     --skeleton-color: #D9D9D9 ; 
     --shape-transparency:#ffffff8f; 
     --text-color-primary: #313131 ; 
-    --text-color-secondary: #6C6C6C ; 
+    --text-color-secondary: #6C6C6C ;
+    --font-family: "Poppins", sans-serif;
+    --text-lg:bold 32px/125% var(--font-family) ;
+    --text: 16px/150% var(--font-family) ;  
+    --text-md:14px/175% var(--font-family);
+    --text-sm: 12px/175% var(--font-family); 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
 }

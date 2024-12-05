@@ -1,0 +1,32 @@
+nav { 
+    /* elemente um ao lado do outro  */
+    display: flex; 
+
+    /* colocar espaços entre as caixas  */
+    justify-content: space-between;
+    align-items: center ;
+
+    /*Retira qualquer espaço extra que exista*/
+    line-height: 0;
+    padding-block: 20px;
+}
+
+/* remover os bullets da lista  */
+nav ul {
+    list-style: none;
+    display: flex;
+    /* Alinha o explore minha imagens*/
+    align-items: center;
+    gap:20px ;
+
+    padding-block: 8px;
+}
+
+/* // diminuir a ultima imagem ( o profile) */
+
+nav ul li:last-child img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50% ;
+}
