@@ -19,6 +19,7 @@
     --text-sm: 12px/175% var(--font-family); 
 }
 
+/*tirar a decoração e tirar a propriedade azul e pegar a cor secundaria*/
 a {
     text-decoration: none;
     color: inherit;
@@ -27,4 +28,19 @@ a {
 a:hover {
     color: var(--brand-color);
     text-decoration: underline;
+}
+
+/*Container para ser usado em varias partes do código que usa o padding-inline (eixo x)
+Aplicar a classe no nav do html */
+
+.container {
+    padding-inline: 32px;
+    max-width: 1280;
+
+    /* só mexe nas laterais*/
+    margin-inline: auto; 
+}
+
+.bg-surface-color { 
+    background-color: var(--surface-color);
 }
